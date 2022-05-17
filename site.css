@@ -3,7 +3,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 h1 {
   font-size: 60px;
   color: rgb(134, 33, 201);
@@ -16,15 +15,18 @@ h2 {
 p {
   color: white;
 }
+
 li {
   color: yellow;
+  margin: 12px;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
 }
 img {
   display: block;
   width: 25%;
   margin-left: auto;
   margin-right: auto;
-
 }
 span {
   color: black;
@@ -42,5 +44,31 @@ main {
 }
 footer {
   text-align: center;
-  border-radius: 2px;
+  margin-bottom: 100px;
+}
+a:hover,
+a:active {
+  background-color: rgb(255, 186, 58);
+}
+footer a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: rgb(250, 201, 39);
+  color: rgb(66, 51, 4);
+}
+footer p {
+  color: rgb(131, 113, 149);
+  margin-top: 30px;
+}
+
+footer a:hover,
+footer a:active {
+  background-color: rgb(255, 186, 58);
+}
+a {
+  text-decoration: none;
+  color: rgb(36, 3, 102);
+  background-color: rgb(255, 237, 177);
+  padding: 2px 6px;
+  border-radius: 4px;
 }

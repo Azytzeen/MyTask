@@ -6,14 +6,20 @@ body {
 h1 {
   font-size: 60px;
   color: rgb(134, 33, 201);
+}
+header {
   text-align: center;
   font-weight: bold;
+  padding: 32px;
 }
-h2 {
-  color: white;
-}
-p {
-  color: white;
+
+main {
+  background-color: rgb(134, 33, 201);
+  margin: 32px auto;
+  border-radius: 8px;
+  padding: 32px;
+  width: 700px;
+  color: rgb(248, 241, 255);
 }
 
 li {
@@ -22,26 +28,13 @@ li {
   padding-left: 10px;
   border-left: 5px solid transparent;
 }
-img {
+header img {
   display: block;
-  width: 25%;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
-span {
-  color: black;
-  border-radius: 2px;
-  margin: 10px 2px 15px 2px;
-  background-color: yellow;
-  font-weight: bold;
-}
-main {
-  background-color: rgb(134, 33, 201);
-  margin: 200px 200px 200px 200px;
-  border-radius: 20px;
-  padding: 15px 40px;
-  margin-top: 50px;
-}
+
 footer {
   text-align: center;
   margin-bottom: 100px;

@@ -1,6 +1,12 @@
+body {
+  background-color: rgb(231, 200, 205);
+  font-family: 'Roboto', sans-serif;
+}
+
+
 h1 {
   font-size: 60px;
-  color: rgb(78, 33, 201);
+  color: rgb(134, 33, 201);
   text-align: center;
   font-weight: bold;
 }
@@ -14,9 +20,11 @@ li {
   color: yellow;
 }
 img {
-  width: 300px;
-  margin-left: 500px;
-  margin-right: 500px;
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 span {
   color: black;
@@ -26,9 +34,13 @@ span {
   font-weight: bold;
 }
 main {
-  background-color: rgb(78, 33, 201);
+  background-color: rgb(134, 33, 201);
   margin: 200px 200px 200px 200px;
   border-radius: 20px;
   padding: 15px 40px;
   margin-top: 50px;
+}
+footer {
+  text-align: center;
+  border-radius: 2px;
 }
